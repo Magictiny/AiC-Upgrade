@@ -1,0 +1,4 @@
+要编译这个c程序需要准备ssh的开发工具，一般ute上面可能是没有的，需要下载，命令是
+sudo apt install libssh-dev
+编译过程中可能会出现错误，出错的话试用下面的命令
+gcc C_AiC_Upgrade.c -L /usr/include/libssh -lssh

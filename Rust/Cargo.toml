@@ -1,0 +1,10 @@
+[package]
+name = "AiC_Upgrade_Via_Jenkins_kuafu"
+version = "0.1.0"
+edition = "2021"
+
+# See more keys and their definitions at https://doc.rust-lang.org/cargo/reference/manifest.html
+
+[dependencies]
+ssh2 = "0.9.4"
+openssl = "0.10.52"
